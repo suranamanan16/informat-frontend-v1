@@ -4,9 +4,7 @@ class Featured extends React.Component{
   render(){
 
 
-    return(
-
-    )
+    return
   }
 }
 

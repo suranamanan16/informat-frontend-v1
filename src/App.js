@@ -8,11 +8,14 @@ import Footer from './Footer.js'
 
 function App() {
   return (
-    <Header />
-    <Navbar />
-    <Carousel />
-    <Featured />
-    <Footer />
+    <div>
+      <Header />
+    </div>
+    // <Header />
+    // <Navbar />
+    // <Carousel />
+    // <Featured />
+    // <Footer />
   );
 }
 
