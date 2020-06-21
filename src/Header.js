@@ -5,33 +5,44 @@ class Header extends React.Component{
 
     const header = {
       display: 'flex',
-      flex-direction: 'column'
+      flexDirection: 'row',
+      justifyContent: 'space-around',
+      padding: '25px'
+    }
+
+    const navbarItems = {
+      margin: '0',
+      padding: '0',
+      paddingTop: '25px'
     }
 
     const searchBar = {
-
+      width: "500px",
+      height: "25px"
     }
+
+    const searchButton = {
+      height: "30px"
+    }
+
 
     return(
         <div>
-          //Flexbox
-          <div className={header}>
+          <div style={header}>
 
-            <img src="" />
+            <img src={require('./images/logo.jpg')} />
 
-            <div className={searchBar}>
-              <input type="text" placeholder="Search..." name="Search"/>
-              <button type="submit">Submit</button>
+            <div style={navbarItems}>
+              <input type="text" placeholder="Search..." style={searchBar}name="Search"/>
+              <button type="submit" style={searchButton}>Search</button>
             </div>
 
-            <div>
-              <p>Contact Us</p>
-              <p>About Us</p>
-            </div>
+              <p style={navbarItems}>Contact Us</p>
 
-
+              <p style={navbarItems}>About Us</p>
 
           </div>
+
         </div>
     )
 
