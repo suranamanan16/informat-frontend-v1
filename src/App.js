@@ -10,6 +10,7 @@ function App() {
   return (
     <div>
       <Header />
+      <Navbar />
     </div>
     // <Header />
     // <Navbar />
