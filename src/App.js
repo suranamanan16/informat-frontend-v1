@@ -11,6 +11,7 @@ function App() {
     <div>
       <Header />
       <Navbar />
+      <Featured />
     </div>
     // <Header />
     // <Navbar />
