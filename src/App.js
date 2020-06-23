@@ -5,7 +5,6 @@ import Featured from './FeaturedSection/Featured.js'
 import Footer from './Footer.js'
 import Slider from './Slider.js'
 
-
 function App() {
   return (
     <div>
@@ -13,6 +12,8 @@ function App() {
       <Navbar />
       <Featured />
       <Slider />
+      <Footer />
+
     </div>
   );
 }

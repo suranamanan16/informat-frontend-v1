@@ -20,7 +20,7 @@ class Featured extends React.Component{
         <FeaturedItem />
         <FeaturedItem />
         <FeaturedItem />
-
+        <FeaturedItem />
 
       </div>
     )
