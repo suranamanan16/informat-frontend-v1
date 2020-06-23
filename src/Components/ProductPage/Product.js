@@ -31,6 +31,7 @@ class Product extends React.Component{
 
         <Header />
         <Navbar />
+        
 
         <div style={flexBox}>
 
