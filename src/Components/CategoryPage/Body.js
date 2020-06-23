@@ -20,6 +20,11 @@ class Body extends React.Component{
       margin: '10px'
     }
 
+    const product = {
+      display: 'flex',
+      flexDirection: 'column'
+    }
+
     return(
 
       <div>
@@ -33,7 +38,13 @@ class Body extends React.Component{
           <Price />
         </div>
 
+          <div style={product}>
           <Product />
+          <Product />
+          <Product />
+          <Product />
+          </div>
+
 
 
       </div>

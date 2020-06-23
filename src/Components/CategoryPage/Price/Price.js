@@ -11,7 +11,8 @@ class Price extends React.Component{
       borderStyle: 'solid',
       borderWidth: 'thin',
       padding: '20px',
-      margin: '30px'
+      margin: '30px',
+      textAlign: 'center'
     }
 
     const items = {

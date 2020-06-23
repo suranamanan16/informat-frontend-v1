@@ -30,7 +30,7 @@ class Product extends React.Component{
       }
 
       const price = {
-        width: '500px',
+        width: '700px',
         textAlign: 'center'
       }
 
