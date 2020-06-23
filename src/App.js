@@ -1,9 +1,9 @@
 import React from 'react';
 import Header from './Header.js'
 import Navbar from './Navbar.js'
-import Carousel from './Carousel.js'
-import Featured from './Featured.js'
+import Featured from './FeaturedSection/Featured.js'
 import Footer from './Footer.js'
+import Slider from './Slider.js'
 
 
 function App() {
@@ -12,12 +12,8 @@ function App() {
       <Header />
       <Navbar />
       <Featured />
+      <Slider />
     </div>
-    // <Header />
-    // <Navbar />
-    // <Carousel />
-    // <Featured />
-    // <Footer />
   );
 }
 
