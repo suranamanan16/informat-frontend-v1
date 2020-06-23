@@ -29,7 +29,12 @@ class Body extends React.Component{
 
       <div style={style}>
 
-        <Price />
+        <div style={flexItem}>
+          <Price />
+        </div>
+
+
+
         <Product />
 
       </div>
