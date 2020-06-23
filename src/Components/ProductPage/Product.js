@@ -10,8 +10,22 @@ class Product extends React.Component{
     return(
 
       <div>
+
         <Header />
         <Navbar />
+
+        <div>
+
+          <div>
+            <h5>Name of the product</h5>
+            <img />
+          </div>
+
+          <h6>Description of the product</h6>
+
+
+        </div>
+
 
       </div>
 
