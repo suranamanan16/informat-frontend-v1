@@ -7,7 +7,7 @@ import Body from './Components/CategoryPage/Body'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Body />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );

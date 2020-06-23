@@ -46,6 +46,7 @@ class Product extends React.Component{
 
         <div style={price}>
           <h6>The price of the product</h6>
+          <p>Some description</p>
         </div>
 
 
