@@ -7,7 +7,8 @@ class Filter extends React.Component{
 
     const style = {
       display: 'flex',
-      flexDirection: 'column'
+      flexDirection: 'column',
+      padding: '30px'
     }
 
     return(

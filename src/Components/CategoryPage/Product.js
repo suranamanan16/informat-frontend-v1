@@ -8,12 +8,17 @@ class Product extends React.Component{
 
       const style = {
         display: 'flex',
-        flexDirection: 'row'
+        flexDirection: 'row',
+        margin: '25px',
+        borderStyle: 'solid',
+        borderWidth: 'thin',
+        padding: '25px'
       }
 
       const container = {
         display: 'flex',
-        flexDirection: 'column'
+        flexDirection: 'column',
+        padding: '20px'
       }
 
       const title = {
@@ -22,6 +27,11 @@ class Product extends React.Component{
 
       const productImage = {
         flex: '2'
+      }
+
+      const price = {
+        width: '500px',
+        textAlign: 'center'
       }
 
 
@@ -33,8 +43,8 @@ class Product extends React.Component{
           <h5 style={title}>The title of the product</h5>
           <img style={productImage} />
         </div>
-        
-        <div>
+
+        <div style={price}>
           <h6>The price of the product</h6>
         </div>
 

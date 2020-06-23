@@ -13,11 +13,11 @@ class Body extends React.Component{
     const style = {
       display: 'flex',
       flexDirection: 'row',
-      justifyContent: 'space-between'
+      justifyContent: 'flex-start'
     }
 
     const flexItem = {
-      marginLeft: '25px'
+      margin: '10px'
     }
 
     return(
@@ -29,15 +29,15 @@ class Body extends React.Component{
 
       <div style={style}>
 
-        <div style={flexItem}>
+        <div>
           <Price />
         </div>
 
+          <Product />
 
-
-        <Product />
 
       </div>
+
 
       </div>
 
