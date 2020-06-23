@@ -1,6 +1,7 @@
 import React from 'react'
 import FooterItem from './FooterItem'
 
+
 class Footer extends React.Component{
   render(){
 
@@ -11,6 +12,7 @@ class Footer extends React.Component{
       justifyContent: 'space-around',
       textAlign: 'center',
       borderStyle: 'solid',
+      borderWidth: 'thin',
       padding: '25px',
       margin: '25px'
     }
