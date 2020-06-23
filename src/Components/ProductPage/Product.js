@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../LandingPage/Header.js'
 import Navbar from '../LandingPage/Navbar.js'
 import Footer from '../LandingPage/Footer/Footer.js'
-import Featured from './Components/LandingPage/FeaturedSection/Featured'
+import Featured from '../LandingPage/FeaturedSection/Featured'
 
 
 class Product extends React.Component{
@@ -45,7 +45,10 @@ class Product extends React.Component{
 
         </div>
 
+        <Featured />
+
         <Footer />
+
 
 
       </div>
