@@ -12,7 +12,15 @@ class Product extends React.Component{
 
       display: 'flex',
       flexDirection: 'row',
+      borderStyle: 'solid',
+      borderWidth: 'thin',
+      margin: '25px',
+      height: '500px',
+      justifyContent: 'space-around'
+    }
 
+    const flexItem = {
+      margin: '25px'
     }
 
     return(
@@ -24,14 +32,14 @@ class Product extends React.Component{
 
         <div style={flexBox}>
 
-          <div>
+          <div style={flexItem}>
             <h5>Name of the product</h5>
             <img />
           </div>
 
-          <h6>Description of the product</h6>
+          <h6 style={flexItem}>Description of the product</h6>
 
-          <h6>Price of the product</h6>
+          <h6 style={flexItem}>Price of the product</h6>
 
         </div>
 
