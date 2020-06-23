@@ -14,7 +14,10 @@ class Body extends React.Component{
       display: 'flex',
       flexDirection: 'row',
       justifyContent: 'space-between'
+    }
 
+    const flexItem = {
+      marginLeft: '10px'
     }
 
     return(
