@@ -10,11 +10,8 @@ class Product extends React.Component{
     return(
 
       <div>
-
-
-      <Header />
-      <Navbar />
-
+        <Header />
+        <Navbar />
 
       </div>
 
