@@ -18,7 +18,7 @@ class Header extends React.Component{
 
     const searchBar = {
       width: "500px",
-      height: "25px"
+      height: "30px"
     }
 
     const searchButton = {
@@ -30,10 +30,10 @@ class Header extends React.Component{
         <div>
           <div style={header}>
 
-            <img src={require('./images/logo.jpg')} />
+            <img src={require('../../images/logo.jpg')} />
 
             <div style={navbarItems}>
-              <input type="text" placeholder="Search..." style={searchBar}name="Search"/>
+              <input type="text" placeholder="Search..." style={searchBar} />
               <button type="submit" style={searchButton}>Search</button>
             </div>
 
