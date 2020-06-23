@@ -1,7 +1,7 @@
 import React from 'react'
 import Header from '../LandingPage/Header.js'
 import Navbar from '../LandingPage/Navbar.js'
-import Navbar from '../LandingPage/Footer/Footer.js'
+import Footer from '../LandingPage/Footer/Footer.js'
 
 class Product extends React.Component{
 
@@ -11,7 +11,7 @@ class Product extends React.Component{
     const flexBox = {
 
       display: 'flex',
-      flexDirection: 'row'
+      flexDirection: 'row',
 
     }
 
