@@ -1,4 +1,6 @@
 import React from 'react'
+import Header from '../LandingPage/Header.js'
+import Navbar from '../LandingPage/Navbar.js'
 
 class Product extends React.Component{
 
@@ -7,8 +9,19 @@ class Product extends React.Component{
 
     return(
 
+      <div>
 
-      
+
+      <Header />
+      <Navbar />
+
+
+      </div>
+
+
+
+
+
     )
 
 
