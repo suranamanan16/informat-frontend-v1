@@ -39,10 +39,10 @@ class Body extends React.Component{
         </div>
 
           <div style={product}>
-          <Product />
-          <Product />
-          <Product />
-          <Product />
+            <Product />
+            <Product />
+            <Product />
+            <Product />
           </div>
 
 
