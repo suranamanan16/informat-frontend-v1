@@ -20,7 +20,7 @@ class Navbar extends React.Component{
       return(
 
         <div style={container}>
-          <a style={navbarItems}>Office</a>
+          <a href='#' style={navbarItems}>Office</a>
           <a style={navbarItems}>Stationary Store</a>
           <a style={navbarItems}>IT Products</a>
           <a style={navbarItems}>Electronics</a>
