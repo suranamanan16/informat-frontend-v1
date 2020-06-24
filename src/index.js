@@ -6,7 +6,7 @@ import Product from './Components/ProductPage/Product'
 
 ReactDOM.render(
   <React.StrictMode>
-    <Product />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
