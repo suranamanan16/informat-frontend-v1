@@ -1,4 +1,7 @@
 import React from 'react';
+// import {BrowserRouter} from 'react-router-dom';
+// import {Route} from 'react-router-dom';
+import Body from './Components/CategoryPage/Body'
 
 import Header from './Components/LandingPage/Header.js'
 import Navbar from './Components/LandingPage/Navbar.js'
@@ -15,13 +18,22 @@ class App extends React.Component {
   render(){
 
     return (
+      // <BrowserRouter>
       <div>
-        <Header />
-        <Navbar />
-        <Featured />
-        <Slider />
-        <Footer />
+
+
+          <Header />
+
+          <Navbar />
+
+          
+
+          <Featured />
+          <Slider />
+          <Footer />
+
       </div>
+      // </BrowserRouter>
     )
   }
 
