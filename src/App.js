@@ -1,6 +1,6 @@
 import React from 'react';
-// import {BrowserRouter} from 'react-router-dom';
-// import {Route} from 'react-router-dom';
+import {BrowserRouter} from 'react-router-dom';
+import {Route} from 'react-router-dom';
 import Body from './Components/CategoryPage/Body'
 
 import Header from './Components/LandingPage/Header.js'
@@ -18,7 +18,7 @@ class App extends React.Component {
   render(){
 
     return (
-      // <BrowserRouter>
+      <BrowserRouter>
       <div>
 
 
@@ -26,14 +26,14 @@ class App extends React.Component {
 
           <Navbar />
 
-          
+          <Route path='/Category' component={Body} />
 
           <Featured />
           <Slider />
           <Footer />
 
       </div>
-      // </BrowserRouter>
+        </BrowserRouter>
     )
   }
 
