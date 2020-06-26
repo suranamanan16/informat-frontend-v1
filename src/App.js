@@ -25,9 +25,7 @@ class App extends React.Component {
           <Header />
 
           <Navbar />
-
-          <Route path='/Category' component={Body} />
-
+            <Route path='/Category' component={Body} />
           <Featured />
           <Slider />
           <Footer />
