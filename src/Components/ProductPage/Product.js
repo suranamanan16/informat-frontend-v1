@@ -31,13 +31,13 @@ class Product extends React.Component{
 
         <Header />
         <Navbar />
-        
+
 
         <div style={flexBox}>
 
           <div style={flexItem}>
             <h5>Name of the product</h5>
-            <img />
+            <img alt="product-image" />
           </div>
 
           <h6 style={flexItem}>Description of the product</h6>

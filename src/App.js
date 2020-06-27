@@ -1,14 +1,13 @@
-import React from 'react';
-import {BrowserRouter} from 'react-router-dom';
-import {Route} from 'react-router-dom';
-import Body from './Components/CategoryPage/Body'
+import React from 'react'
+import {BrowserRouter} from 'react-router-dom'
+import {Route} from 'react-router-dom'
+import {Switch} from 'react-router-dom'
+import Landing from './Components/LandingPage/Landing'
+import Category from './Components/CategoryPage/Category'
+
 
 import Header from './Components/LandingPage/Header.js'
 import Navbar from './Components/LandingPage/Navbar.js'
-import Featured from './Components/LandingPage/FeaturedSection/Featured.js'
-import Footer from './Components/LandingPage/Footer/Footer.js'
-import Slider from './Components/LandingPage/Slider.js'
-
 
 
 
@@ -19,19 +18,18 @@ class App extends React.Component {
 
     return (
       <BrowserRouter>
-      <div>
+        <div>
+            <Header />
+            <Navbar />
 
+            <Switch>
+              <Route exact path='/' component={Landing} />
+              <Route path='/Category' component={Category} />
+            </Switch>
+            
+        </div>
 
-          <Header />
-
-          <Navbar />
-            <Route path='/Category' component={Body} />
-          <Featured />
-          <Slider />
-          <Footer />
-
-      </div>
-        </BrowserRouter>
+      </BrowserRouter>
     )
   }
 

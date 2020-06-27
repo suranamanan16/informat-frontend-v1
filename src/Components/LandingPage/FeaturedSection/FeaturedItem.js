@@ -18,7 +18,7 @@ class FeaturedItem extends React.Component {
     return (
       <div style={container}>
 
-        <img style={image} src = "" />
+        <img style={image} alt="featured-products" src = "" />
         <title> Product Title </title>
         <p> Price of Product </p>
         <button> More Info </button>

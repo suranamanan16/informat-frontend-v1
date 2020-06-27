@@ -30,7 +30,7 @@ class Header extends React.Component{
         <div>
           <div style={header}>
 
-            <img src={require('../../images/logo.jpg')} />
+            <img src={require('../../images/logo.jpg')} alt="company-logo" />
 
             <div style={navbarItems}>
               <input type="text" placeholder="Search..." style={searchBar} />

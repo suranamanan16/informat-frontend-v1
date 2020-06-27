@@ -2,7 +2,7 @@ import React from 'react'
 import Product from './Product'
 import Price from './Price/Price'
 
-class Body extends React.Component{
+class Category extends React.Component{
 
 
   render(){
@@ -11,10 +11,6 @@ class Body extends React.Component{
       display: 'flex',
       flexDirection: 'row',
       justifyContent: 'flex-start'
-    }
-
-    const flexItem = {
-      margin: '10px'
     }
 
     const product = {
@@ -57,4 +53,4 @@ class Body extends React.Component{
 
 }
 
-export default Body
+export default Category

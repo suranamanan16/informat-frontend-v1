@@ -41,7 +41,7 @@ class Product extends React.Component{
 
         <div style={container}>
           <h5 style={title}>The title of the product</h5>
-          <img style={productImage} />
+          <img style={productImage} alt="products"/>
         </div>
 
         <div style={price}>
